@@ -3,7 +3,7 @@ const token_token = 'your_telegram_token';
 var request = require('request');
 
 // Create a bot that uses 'polling' to fetch new updates
-var bot = new TelegramBot(token, {
+var bot = new TelegramBot(token_token, {
     polling: true
 });
 
