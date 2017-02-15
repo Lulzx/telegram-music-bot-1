@@ -11,7 +11,7 @@ var CLIENTSECRET = "genius_SECRET";
 
 and then execute this on terminal
 ```sh
-telegram-music-bot
+cd telegram-music-bot
 
 npm install
 
