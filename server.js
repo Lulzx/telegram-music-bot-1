@@ -1,5 +1,5 @@
 const TelegramBot = require('node-telegram-bot-api');
-const token_token = 'your_telegram_token';
+const token_token = '384742340:AAETgAQr48DrdczySb6gOCI0dmwHQeuKaM8';
 var request = require('request');
 
 // Create a bot that uses 'polling' to fetch new updates
@@ -7,8 +7,8 @@ var bot = new TelegramBot(token_token, {
     polling: true
 });
 
-var CLIENTID = "genius_CLIENTID";
-var CLIENTSECRET = "genius_SECRET";
+var CLIENTID = "PaP7HvnSJW45XAJ3keAwxhXRsIJrzRj7onH2uLNXEFUL7BpiS-u3sGhNxWA8Fv_h";
+var CLIENTSECRET = "1ql_hkfjgZVW0IRx6y2JTBFiWt-AR35d87_XLb6eRT1qsPxX5Uo6gVOGWusCTufGvgqpMAqTwH0-wZPURtw_bQ";
 var accessToken = "?access_token=" + "genius_TOKEN";
 var API = "https://api.genius.com/search";
 var APISong = "https://api.genius.com/songs/";
